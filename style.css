@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box1 .left{
+    background-image: url(photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    
+}
+.photo-content{
+    display: flex;
+    gap:35%;
+}
+.main{
+    display: flex;
+}
+.main .main-left{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(painting.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.main .main-right{
+    height: 36vh;
+    width: 36vw;
+    padding-left: 200px;
+}
